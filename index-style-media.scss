@@ -1,0 +1,31 @@
+@media (max-width: 950px){
+    section{
+        flex-direction: column !important;
+    }
+
+    header{
+        position: unset !important;
+
+        nav a{
+            color: #333 !important;
+        }
+    }
+
+    .banner{
+        .banner-text-container{
+            text-align: center;
+
+            h1{
+                font-size: 40px !important;
+                width: 100% !important;
+
+            }
+
+            p{
+                width: 100% !important;
+            }
+        }
+    }
+
+    
+}

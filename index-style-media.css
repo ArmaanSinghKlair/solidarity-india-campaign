@@ -1,0 +1,25 @@
+@media (max-width: 950px) {
+  section {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  header {
+    position: unset !important;
+  }
+  header nav a {
+    color: #333 !important;
+  }
+  .banner .banner-text-container {
+    text-align: center;
+  }
+  .banner .banner-text-container h1 {
+    font-size: 40px !important;
+    width: 100% !important;
+  }
+  .banner .banner-text-container p {
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=index-style-media.css.map */
